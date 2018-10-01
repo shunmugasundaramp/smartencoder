@@ -7,29 +7,31 @@ It is a stylish interface to making different encoded data from a single object
 4. Enhanced to any new datatype
 
 # Usage
-**In Linux**
-***To Compile,***
+## In Linux
+
+### To Compile
 
 g++ SmartEncoder.cpp -c -o SmartEncoder.o
 
 g++ test.cpp SmartEncoder.o
 
-***To Run,***
+### To Run
 
 ./a.out
 
-**In Windows**
-***To Compile,***
+## In Windows
+### To Compile
 
 cl /c /EHsc SmartEncoder.cpp /FoSmartEncoder.o
 
 cl /EHsc test.cpp SmartEncoder.o
 
-***To Run,***
+### To Run
 
 ./test.exe
 
-Output:
+# Output
+```
 *** SimpleEncode() ***
 In JSON    : {"name":"Shunmuga","job":"Software Engineer","where":"Bangalore, India","age":31,"experience":9.2}
 In XML     : <?xml version="1.0" encoding="UTF-8"?><record><name>Shunmuga</name><job>Software Engineer</job><where>Bangalore, India</where><age>31</age><experience>9.2</experience></record>
@@ -53,3 +55,4 @@ In XML     : <?xml version="1.0" encoding="UTF-8"?><record><data></data></record
 *** EmptyObject() ***
 In JSON    : {}
 In XML     : <?xml version="1.0" encoding="UTF-8"?><record></record>
+```
