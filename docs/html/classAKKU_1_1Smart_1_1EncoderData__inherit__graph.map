@@ -1,0 +1,8 @@
+<map id="AKKU::Smart::EncoderData" name="AKKU::Smart::EncoderData">
+<area shape="rect" id="node2" href="$classAKKU_1_1Smart_1_1EncoderBoolData.html" title="{AKKU::Smart::EncoderBoolData\n||+ ~EncoderBoolData()\l+ EncoderBoolData()\l+ EncoderBoolData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="5,189,216,325"/>
+<area shape="rect" id="node3" href="$classAKKU_1_1Smart_1_1EncoderDoubleData.html" title="{AKKU::Smart::EncoderDoubleData\n||+ ~EncoderDoubleData()\l+ EncoderDoubleData()\l+ EncoderDoubleData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="240,189,464,325"/>
+<area shape="rect" id="node4" href="$classAKKU_1_1Smart_1_1EncoderNullData.html" title="{AKKU::Smart::EncoderNullData\n||+ ~EncoderNullData()\l+ EncoderNullData()\l+ EncoderNullData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="489,189,695,325"/>
+<area shape="rect" id="node5" href="$classAKKU_1_1Smart_1_1EncoderNumData.html" title="{AKKU::Smart::EncoderNumData\n||+ ~EncoderNumData()\l+ EncoderNumData()\l+ EncoderNumData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="720,189,931,325"/>
+<area shape="rect" id="node6" href="$classAKKU_1_1Smart_1_1EncoderObjectData.html" title="{AKKU::Smart::EncoderObjectData\n||+ ~EncoderObjectData()\l+ EncoderObjectData()\l+ EncoderObjectData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="955,189,1178,325"/>
+<area shape="rect" id="node7" href="$classAKKU_1_1Smart_1_1EncoderStringData.html" title="{AKKU::Smart::EncoderStringData\n||+ ~EncoderStringData()\l+ EncoderStringData()\l+ EncoderStringData()\l+ ToJson()\l+ ToXml()\l}" alt="" coords="1203,189,1421,325"/>
+</map>

@@ -29,6 +29,8 @@ limitations under the License.
 
 using namespace std;
 
+namespace AKKU {
+
 namespace Smart {
 
 // EncoderNumData Class //////////////////////////
@@ -449,3 +451,5 @@ void Encoder::Assign(EncoderData* d)
 }
 
 }; // namespace Smart
+
+}; // namespace AKKU

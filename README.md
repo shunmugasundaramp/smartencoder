@@ -1,5 +1,22 @@
-# smart-encoder
-It is a stylish interface to making different encoded data from a single object
+
+                   AKKU::Smart::Encoder, Release 2.0.0
+
+This is AKKU::Smart::Encoder, a C++ library for do the encoding(either 
+XML or JSON) written by Shunmuga Sundaram.  It is
+a independent source which should not having any other thirdparty
+software references
+
+Currently it is having a support to compile with GCC Compiler.
+Hopefully it will come for other compilers too.
+
+AKKU Parser is free software.  You may copy, distribute, and modify
+it under the terms of the License contained in the file COPYING
+distributed with this package.  This license is the same as the
+Apache Consortium license.
+
+
+# AKKU::Smart::Encoder
+Light weight module to do the encoding in either Xml or Json from single object
 
 1. Easy to include anywhere
 2. No dependencies
@@ -11,24 +28,20 @@ It is a stylish interface to making different encoded data from a single object
 
 ### To Compile
 
-g++ SmartEncoder.cpp -c -o SmartEncoder.o
-
-g++ test.cpp SmartEncoder.o
+./linbuild.sh
 
 ### To Run
 
-./a.out
+./objs/usage.exe
 
 ## In Windows
 ### To Compile
 
-cl /c /EHsc SmartEncoder.cpp /FoSmartEncoder.o
-
-cl /EHsc test.cpp SmartEncoder.o
+winbuild.bat
 
 ### To Run
 
-./test.exe
+objs\usage.exe
 
 # Output
 ```

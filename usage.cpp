@@ -14,13 +14,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+/**
+  *
+  * @file usage.cpp
+  * @brief test code
+  * @author Shunmuga (ssundaramp@outlook.com)
+  *
+  */
+
 #include <stdio.h>
 
 #include "SmartEncoder.hpp"
 
 static void SimpleEncode()
 {
-    Smart::Encoder encode;
+    AKKU::Smart::Encoder encode;
     encode["name"] = "Shunmuga";
     encode["job"] = "Software Engineer";
     encode["where"] = "Bangalore, India";
@@ -35,7 +43,7 @@ static void SimpleEncode()
 
 static void NestedObject()
 {
-    Smart::Encoder encode, skills;
+    AKKU::Smart::Encoder encode, skills;
     encode["name"] = "Shunmuga";
     encode["job"] = "Software Engineer";
     encode["where"] = "Bangalore, India";
@@ -58,7 +66,7 @@ static void NestedObject()
 
 static void ArrayObject()
 {
-    Smart::Encoder encode, skills;
+    AKKU::Smart::Encoder encode, skills;
     encode["name"] = "Shunmuga";
     encode["job"] = "Software Engineer";
     encode["where"] = "Bangalore, India";
@@ -80,7 +88,7 @@ static void ArrayObject()
 
 static void NullObject()
 {
-    Smart::Encoder encode;
+    AKKU::Smart::Encoder encode;
     encode["data"].AsNull();
     
     printf("\n\n*** %s() ***\n", __FUNCTION__);
@@ -91,7 +99,7 @@ static void NullObject()
 
 static void EmptyObject()
 {
-    Smart::Encoder encode;
+    AKKU::Smart::Encoder encode;
     
     printf("\n\n*** %s() ***\n", __FUNCTION__);
     printf("%-10s : %s\n", "In JSON", encode.ToJson().c_str());

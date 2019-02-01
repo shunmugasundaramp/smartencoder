@@ -41,6 +41,8 @@ limitations under the License.
 
 using namespace std;
 
+namespace AKKU {
+
 namespace Smart {
 
 /**
@@ -359,6 +361,8 @@ class Encoder
 };
 
 }; // namespace Smart
+
+}; // namespace AKKU
 
 #endif //_SmartEncoder_hpp_
 
